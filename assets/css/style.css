@@ -1,0 +1,44 @@
+body{
+    width:100vw;
+    height: 100vh;
+    background-color: #002e16;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+:root{
+    --botoes1: #002e16;
+    --botoes2:#09776e;
+    --botoes3:#51cbc7;
+    --botoes4:#0b4842;
+}
+button{
+    background-color: var(--botoes1);
+    border-radius: 7px;
+    width: 60px;
+    height: 25px;
+}
+.calculadora{
+    width: 400px;
+    height: 250px;
+    background-color: #51cbc7;
+    border-radius: 10px;
+    align-items:center;
+    justify-content:center;
+    display: flex;
+}
+.tabela{
+    background-color: #0b4842;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+}
+.faixa{
+    width: 100px;
+    height: 50px;
+    background-color: #09776e;
+    display: flex;
+}
